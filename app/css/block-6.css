@@ -1,0 +1,20 @@
+.block-6 {
+    background-color: #f6f5f3;
+}
+
+.block-6-desc {
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    opacity: 0.65;
+    font-size: 1.1em;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #282828;
+}
+.macbook-screen {
+    padding-top: 90px;
+    text-align: center;
+}

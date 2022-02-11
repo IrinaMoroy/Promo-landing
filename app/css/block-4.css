@@ -1,0 +1,63 @@
+.macbook-design {
+    display: flex;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+
+.macbook-small-title {
+    padding-top: 140px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-size: 1.33em;
+    color: var(--accent-color);
+    margin: 0;
+}
+
+.macbook-title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.macbook-desc {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.macbook-design-text {
+    width: 80%;
+    opacity: 0.66;
+    color: #282828;
+    font-size: 1em;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 26px;
+    text-align: left;
+}
+
+.macbook-img {
+    margin-top: 90px;
+    position: relative;
+}
+
+.macbook-design::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    opacity: 0.8;
+    width: 40%;
+    height: 40%;
+    bottom: 0;
+    left: 0;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 500px;
+    border-right-width: 500px;
+    border-style: solid;
+    border-bottom-color: var(--accent-color);
+    border-right-color: transparent;
+}
